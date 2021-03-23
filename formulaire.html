@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Votre Avis Nous Intéresse</title>
+  <style type="text/css">
+  fieldset {
+ width:500px;
+ }
+  </style>
+  </head>
+
+  <body>
+    <h1>Votre Avis Nous Intéresse</h1>
+    <form>
+      <div>
+
+
+    <form name="Information Personnelles" method="post" action=""style ="width:500px;">
+
+   <fieldset>
+      <legend><h2>Information Personnelles</h2></legend>
+      <label for="nom">1 Nom </label>
+            <input id="nom" autofocus="" required=""><br>
+    <label for="date">2 Date de Naissance </label>
+      <input type="date" id="start" name="trip-start"
+       value="mm-dd-yyyy"
+       form action="../../form-result.php" method="post" target="_blank">
+
+  <p>
+
+    3 Site <input id="url" type="url" placeholder="http://monsite.com" name="site" pattern="http/https" title="seulement http ou https">
+
+
+
+  </p>
+  <p>
+
+
+    4 Emploi  <select name="emploi" id="emploi"><br >
+          <option value="etudiant">Etudiant</option>
+          <option value="administrateur réseau">Administrateur Réseau</option>
+          <option value="dévlopeur web">Dévlopeur Web</option>
+          <option value="web designer">Web Designer</option>
+          <option value="devops">DevOps</option>
+
+      </select>
+  </p>
+
+  <form>
+    <label for="quantity">5 approx.salair annuel</label>
+   <input type="number" id="quantity" name="quantity"placeholder="$" min="1000" max="2000000"><br><br>
+</form>
+</body>
+</fieldset>
+
+    <form name="Information de contacte" method="post" action=""style ="width:500px;">
+
+   <fieldset>
+      <legend><h2>Information de Contacte</h2></legend>
+      <label for="adresse ligne 1">1 Adresse Ligne 1 </label>
+            <input id="adresse ligne 1" autofocus="" required=""><br>
+            <label for="adresse ligne 2">2 Adresse Ligne 2 </label>
+                  <input id="adresse ligne 2" autofocus="" required=""><br>
+
+<p>
+                   3 pays  <select name="pays" id="pays"><br >
+                        <option value="algérie">Algérie</option>
+                        <option value="tunisie">Tunisie</option>
+                        <option value="maroc">Maroc</option>
+</select>
+</p>
+<p>
+  <form>
+<div>
+<label for="telNo">4 tel </label>
+<input id="telNo" name="telNo" type="tel" placeholder="eg:213 67">
+<span class="validity"></span>
+</div>
+
+</form>
+</p>
+<p>
+4 courriel <input type="email" name="email" size="30" placeholder="Votre adresse email ici" />
+</p>
+</body>
+</fieldset>
+<h1>préférence</h1>
+
+choisi une couleur <input type="color" name="fond" /><br>
+sur une échelle de 1 à 10, quel est votre degré d'enthousiasme pour HTML5? <input type="range" name="appreciation" /><br>
+
+<input type="submit" value="Envoyer">
+</div>
+</form>
